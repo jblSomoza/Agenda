@@ -1,0 +1,51 @@
+body{
+    background-size:100%; 
+}
+
+.contenedor_registro{
+    padding: 16%;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=number]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+hr{
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.registro{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px 5px 10px 5px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registro:hover{
+    opacity: 1;
+}
+
+a{
+    color: blue;
+}
+
+.iniciar{
+    background-color: #f1f1f1;
+    text-align: center;
+}
